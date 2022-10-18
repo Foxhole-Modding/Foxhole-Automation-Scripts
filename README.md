@@ -23,7 +23,7 @@ Contains various variables the batch files access. Assuming you installed everyt
 | ProjectFile | Represents the location of the .uproject you want to work with. Can be a relative path. | ..\War\War.uproject |
 | UnrealEngineLocation | Represents the location that UE4.25 is installed in. Expects the folder which CONTAINS Engine\\ | C:\Program Files (x86)\UE_4.24
 | ModName | Used by the bats when making your pak name, and in one or two other places. | myMod |
-| SteamInstall | The folder the game is installed in. Expects the folder containing FSD.exe | C:\Program Files (x86)\Steam\steamapps\common\Foxhole |
+| SteamInstall | The folder the game is installed in. Expects the folder containing War.exe | C:\Program Files (x86)\Steam\steamapps\common\Foxhole |
 
 ### CookUEProject.bat
 Runs UE4Editor-Cmd.exe in order to cook the mod files. You can find the cooked files in ProjectFolder\Saved\Cooked\WindowsNoEditor
